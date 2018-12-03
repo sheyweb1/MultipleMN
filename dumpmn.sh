@@ -1,20 +1,3 @@
-Skip to content
- 
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- @sheyweb1 Sign out
-0
-2 0 neo3587/dupmn
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights
-dupmn/dupmn.sh
-b48bbc6  3 days ago
-@neo3587 neo3587 improved user errors checking, partial refactor
-     
-558 lines (482 sloc)  20 KB
 #!/bin/bash
 
 # TODO:
@@ -572,16 +555,3 @@ function main() {
 
 main $@
 
-© 2018 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Press h to open a hovercard with more details.
