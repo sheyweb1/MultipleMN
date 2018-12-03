@@ -4,7 +4,7 @@ GREEN='\e[1;32m'
 NC='\e[0m'
 
 rm -rf ./dupmn.sh
-wget -q https://github.com/sheyweb1/MultipleMN/blob/master/dupmn.sh
+wget -q https://github.com/sheyweb1/MultipleMN/master/dupmn.sh
 
 if [[ -f /usr/bin/dupmn && ! $(diff -q ./dupmn.sh /usr/bin/dupmn) ]]; then
 	echo -e "${GREEN}dupmn${NC} is already updated to the last version"
